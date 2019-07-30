@@ -6,7 +6,7 @@ import $package$.model.database.User
 import $package$.model.response.{ErrorResponse, InternalServerErrorResponse, NotFoundResponse}
 import $package$.model.{DBError, Error, NotFoundError, UnexpectedError}
 import $package$.module.db._
-import $package$.module.logger.{Logger, _}
+import $package$.module.logger._
 import io.circe.generic.auto._
 import org.http4s._
 import org.http4s.dsl.Http4sDsl
